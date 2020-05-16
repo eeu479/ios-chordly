@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (5.0.0)
+  - UPCarouselFlowLayout (1.1.2)
+
+DEPENDENCIES:
+  - SnapKit (= 5.0.0)
+  - UPCarouselFlowLayout
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+    - UPCarouselFlowLayout
+
+SPEC CHECKSUMS:
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
+
+PODFILE CHECKSUM: 959003216c1769e79d8b6aa6ef1112af4b582d36
+
+COCOAPODS: 1.9.1

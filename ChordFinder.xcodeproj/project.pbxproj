@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57618B747EA59F803F2C9525 /* libPods-ChordFinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6334886D221362D180AB77 /* libPods-ChordFinderTests.a */; };
+		B907B81224618F99005220E8 /* ChordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907B81124618F99005220E8 /* ChordStore.swift */; };
+		B907B814246190B6005220E8 /* ChordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907B813246190B6005220E8 /* ChordViewController.swift */; };
+		B907B8172461ADF9005220E8 /* ChordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907B8162461ADF9005220E8 /* ChordDetailViewController.swift */; };
+		B907B81F2465D186005220E8 /* ChordDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907B81E2465D186005220E8 /* ChordDetailViewModel.swift */; };
+		B907B8212465DE9E005220E8 /* ChordDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B907B8202465DE9E005220E8 /* ChordDiagramView.swift */; };
+		B93E2A5772BEEDA32A19F455 /* libPods-ChordFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F0AD47D3A9B44F370FE49C /* libPods-ChordFinder.a */; };
 		B9C2EEBB2459AE3600690D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2EEBA2459AE3600690D21 /* AppDelegate.swift */; };
 		B9C2EEBD2459AE3600690D21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2EEBC2459AE3600690D21 /* SceneDelegate.swift */; };
-		B9C2EEBF2459AE3600690D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2EEBE2459AE3600690D21 /* ViewController.swift */; };
+		B9C2EEBF2459AE3600690D21 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2EEBE2459AE3600690D21 /* PlayViewController.swift */; };
 		B9C2EEC22459AE3600690D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C2EEC02459AE3600690D21 /* Main.storyboard */; };
 		B9C2EEC52459AE3600690D21 /* ChordFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9C2EEC32459AE3600690D21 /* ChordFinder.xcdatamodeld */; };
 		B9C2EEC72459AE3700690D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C2EEC62459AE3700690D21 /* Assets.xcassets */; };
 		B9C2EECA2459AE3700690D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C2EEC82459AE3700690D21 /* LaunchScreen.storyboard */; };
 		B9C2EED52459AE3700690D21 /* ChordFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2EED42459AE3700690D21 /* ChordFinderTests.swift */; };
 		B9C2EEE02459AE3800690D21 /* ChordFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2EEDF2459AE3800690D21 /* ChordFinderUITests.swift */; };
+		B9C2EEEE2459AE6000690D21 /* PlayTouchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2EEED2459AE6000690D21 /* PlayTouchableView.swift */; };
+		B9EB1136246F585800903CCD /* LearnChordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EB1135246F585800903CCD /* LearnChordViewController.swift */; };
+		B9F5991A2460508F009666CD /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F599192460508F009666CD /* MainMenuViewController.swift */; };
+		CCD8C354782D97A66F064A61 /* libPods-ChordFinder-ChordFinderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8CD1E8E5DE8902D1F8D4B1 /* libPods-ChordFinder-ChordFinderUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B9C2EEB72459AE3600690D21 /* ChordFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChordFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045FF3166720D8ADCF266E43 /* Pods-ChordFinder-ChordFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordFinder-ChordFinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChordFinder-ChordFinderUITests/Pods-ChordFinder-ChordFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63F0AD47D3A9B44F370FE49C /* libPods-ChordFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChordFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67966C5977947297070C491E /* Pods-ChordFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-ChordFinderTests/Pods-ChordFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7027D320AE4A3AAC927348BE /* Pods-ChordFinder-ChordFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordFinder-ChordFinderUITests.release.xcconfig"; path = "Target Support Files/Pods-ChordFinder-ChordFinderUITests/Pods-ChordFinder-ChordFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B907B81124618F99005220E8 /* ChordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordStore.swift; sourceTree = "<group>"; };
+		B907B813246190B6005220E8 /* ChordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordViewController.swift; sourceTree = "<group>"; };
+		B907B8162461ADF9005220E8 /* ChordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordDetailViewController.swift; sourceTree = "<group>"; };
+		B907B81E2465D186005220E8 /* ChordDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordDetailViewModel.swift; sourceTree = "<group>"; };
+		B907B8202465DE9E005220E8 /* ChordDiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordDiagramView.swift; sourceTree = "<group>"; };
+		B9C2EEB72459AE3600690D21 /* Chordly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chordly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C2EEBA2459AE3600690D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9C2EEBC2459AE3600690D21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B9C2EEBE2459AE3600690D21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9C2EEBE2459AE3600690D21 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		B9C2EEC12459AE3600690D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9C2EEC42459AE3600690D21 /* ChordFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChordFinder.xcdatamodel; sourceTree = "<group>"; };
 		B9C2EEC62459AE3700690D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +71,14 @@
 		B9C2EEDB2459AE3800690D21 /* ChordFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChordFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C2EEDF2459AE3800690D21 /* ChordFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordFinderUITests.swift; sourceTree = "<group>"; };
 		B9C2EEE12459AE3800690D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C2EEED2459AE6000690D21 /* PlayTouchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTouchableView.swift; sourceTree = "<group>"; };
+		B9EB1135246F585800903CCD /* LearnChordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnChordViewController.swift; sourceTree = "<group>"; };
+		B9F599192460508F009666CD /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		C30493E2A616628D99D4CA47 /* Pods-ChordFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordFinderTests.release.xcconfig"; path = "Target Support Files/Pods-ChordFinderTests/Pods-ChordFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5C34CB0D114CB18C1F52548 /* Pods-ChordFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordFinder.release.xcconfig"; path = "Target Support Files/Pods-ChordFinder/Pods-ChordFinder.release.xcconfig"; sourceTree = "<group>"; };
+		DEB097F1F73426BD96810171 /* Pods-ChordFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChordFinder.debug.xcconfig"; path = "Target Support Files/Pods-ChordFinder/Pods-ChordFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8CD1E8E5DE8902D1F8D4B1 /* libPods-ChordFinder-ChordFinderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChordFinder-ChordFinderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6334886D221362D180AB77 /* libPods-ChordFinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChordFinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93E2A5772BEEDA32A19F455 /* libPods-ChordFinder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57618B747EA59F803F2C9525 /* libPods-ChordFinderTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD8C354782D97A66F064A61 /* libPods-ChordFinder-ChordFinderUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0634C5A3617205C8E69A378B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB097F1F73426BD96810171 /* Pods-ChordFinder.debug.xcconfig */,
+				C5C34CB0D114CB18C1F52548 /* Pods-ChordFinder.release.xcconfig */,
+				045FF3166720D8ADCF266E43 /* Pods-ChordFinder-ChordFinderUITests.debug.xcconfig */,
+				7027D320AE4A3AAC927348BE /* Pods-ChordFinder-ChordFinderUITests.release.xcconfig */,
+				67966C5977947297070C491E /* Pods-ChordFinderTests.debug.xcconfig */,
+				C30493E2A616628D99D4CA47 /* Pods-ChordFinderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D2078B9A21DC2FA9137C1CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F0AD47D3A9B44F370FE49C /* libPods-ChordFinder.a */,
+				ED8CD1E8E5DE8902D1F8D4B1 /* libPods-ChordFinder-ChordFinderUITests.a */,
+				FA6334886D221362D180AB77 /* libPods-ChordFinderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B907B8152461ADED005220E8 /* ChordDiagram */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChordDiagram;
+			sourceTree = "<group>";
+		};
+		B907B81C2465D15A005220E8 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				B907B81D2465D162005220E8 /* Chord */,
+				B907B813246190B6005220E8 /* ChordViewController.swift */,
+				B9EB1135246F585800903CCD /* LearnChordViewController.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		B907B81D2465D162005220E8 /* Chord */ = {
+			isa = PBXGroup;
+			children = (
+				B907B8162461ADF9005220E8 /* ChordDetailViewController.swift */,
+				B907B81E2465D186005220E8 /* ChordDetailViewModel.swift */,
+				B907B8202465DE9E005220E8 /* ChordDiagramView.swift */,
+			);
+			path = Chord;
+			sourceTree = "<group>";
+		};
 		B9C2EEAE2459AE3600690D21 = {
 			isa = PBXGroup;
 			children = (
@@ -85,13 +166,15 @@
 				B9C2EED32459AE3700690D21 /* ChordFinderTests */,
 				B9C2EEDE2459AE3800690D21 /* ChordFinderUITests */,
 				B9C2EEB82459AE3600690D21 /* Products */,
+				0634C5A3617205C8E69A378B /* Pods */,
+				2D2078B9A21DC2FA9137C1CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B9C2EEB82459AE3600690D21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9C2EEB72459AE3600690D21 /* ChordFinder.app */,
+				B9C2EEB72459AE3600690D21 /* Chordly.app */,
 				B9C2EED02459AE3700690D21 /* ChordFinderTests.xctest */,
 				B9C2EEDB2459AE3800690D21 /* ChordFinderUITests.xctest */,
 			);
@@ -101,14 +184,18 @@
 		B9C2EEB92459AE3600690D21 /* ChordFinder */ = {
 			isa = PBXGroup;
 			children = (
+				B9EB1137246F59CF00903CCD /* Play */,
+				B907B81C2465D15A005220E8 /* Learn */,
+				B907B8152461ADED005220E8 /* ChordDiagram */,
 				B9C2EEBA2459AE3600690D21 /* AppDelegate.swift */,
 				B9C2EEBC2459AE3600690D21 /* SceneDelegate.swift */,
-				B9C2EEBE2459AE3600690D21 /* ViewController.swift */,
 				B9C2EEC02459AE3600690D21 /* Main.storyboard */,
 				B9C2EEC62459AE3700690D21 /* Assets.xcassets */,
 				B9C2EEC82459AE3700690D21 /* LaunchScreen.storyboard */,
 				B9C2EECB2459AE3700690D21 /* Info.plist */,
 				B9C2EEC32459AE3600690D21 /* ChordFinder.xcdatamodeld */,
+				B9F599192460508F009666CD /* MainMenuViewController.swift */,
+				B907B81124618F99005220E8 /* ChordStore.swift */,
 			);
 			path = ChordFinder;
 			sourceTree = "<group>";
@@ -131,6 +218,15 @@
 			path = ChordFinderUITests;
 			sourceTree = "<group>";
 		};
+		B9EB1137246F59CF00903CCD /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				B9C2EEBE2459AE3600690D21 /* PlayViewController.swift */,
+				B9C2EEED2459AE6000690D21 /* PlayTouchableView.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9C2EEE42459AE3800690D21 /* Build configuration list for PBXNativeTarget "ChordFinder" */;
 			buildPhases = (
+				496959951AC92E58FA2063AB /* [CP] Check Pods Manifest.lock */,
 				B9C2EEB32459AE3600690D21 /* Sources */,
 				B9C2EEB42459AE3600690D21 /* Frameworks */,
 				B9C2EEB52459AE3600690D21 /* Resources */,
@@ -148,13 +245,14 @@
 			);
 			name = ChordFinder;
 			productName = ChordFinder;
-			productReference = B9C2EEB72459AE3600690D21 /* ChordFinder.app */;
+			productReference = B9C2EEB72459AE3600690D21 /* Chordly.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B9C2EECF2459AE3700690D21 /* ChordFinderTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9C2EEE72459AE3800690D21 /* Build configuration list for PBXNativeTarget "ChordFinderTests" */;
 			buildPhases = (
+				F5965294FB8CD5E7D316EAB1 /* [CP] Check Pods Manifest.lock */,
 				B9C2EECC2459AE3700690D21 /* Sources */,
 				B9C2EECD2459AE3700690D21 /* Frameworks */,
 				B9C2EECE2459AE3700690D21 /* Resources */,
@@ -173,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9C2EEEA2459AE3800690D21 /* Build configuration list for PBXNativeTarget "ChordFinderUITests" */;
 			buildPhases = (
+				28A71B0A93ABA3D971EE5ECD /* [CP] Check Pods Manifest.lock */,
 				B9C2EED72459AE3800690D21 /* Sources */,
 				B9C2EED82459AE3800690D21 /* Frameworks */,
 				B9C2EED92459AE3800690D21 /* Resources */,
@@ -257,14 +356,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A71B0A93ABA3D971EE5ECD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChordFinder-ChordFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		496959951AC92E58FA2063AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChordFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5965294FB8CD5E7D316EAB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChordFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9C2EEB32459AE3600690D21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F5991A2460508F009666CD /* MainMenuViewController.swift in Sources */,
+				B9C2EEEE2459AE6000690D21 /* PlayTouchableView.swift in Sources */,
+				B907B81224618F99005220E8 /* ChordStore.swift in Sources */,
+				B907B814246190B6005220E8 /* ChordViewController.swift in Sources */,
 				B9C2EEC52459AE3600690D21 /* ChordFinder.xcdatamodeld in Sources */,
-				B9C2EEBF2459AE3600690D21 /* ViewController.swift in Sources */,
+				B9C2EEBF2459AE3600690D21 /* PlayViewController.swift in Sources */,
 				B9C2EEBB2459AE3600690D21 /* AppDelegate.swift in Sources */,
+				B907B8172461ADF9005220E8 /* ChordDetailViewController.swift in Sources */,
+				B907B81F2465D186005220E8 /* ChordDetailViewModel.swift in Sources */,
+				B907B8212465DE9E005220E8 /* ChordDiagramView.swift in Sources */,
+				B9EB1136246F585800903CCD /* LearnChordViewController.swift in Sources */,
 				B9C2EEBD2459AE3600690D21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,44 +612,52 @@
 		};
 		B9C2EEE52459AE3800690D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB097F1F73426BD96810171 /* Pods-ChordFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6QGL867GZ;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 95Y2V3PFAC;
 				INFOPLIST_FILE = ChordFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmtcomputing.ChordFinder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmtcomputing.chordly-app";
+				PRODUCT_NAME = Chordly;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B9C2EEE62459AE3800690D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C34CB0D114CB18C1F52548 /* Pods-ChordFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6QGL867GZ;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 95Y2V3PFAC;
 				INFOPLIST_FILE = ChordFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmtcomputing.ChordFinder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmtcomputing.chordly-app";
+				PRODUCT_NAME = Chordly;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		B9C2EEE82459AE3800690D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67966C5977947297070C491E /* Pods-ChordFinderTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6QGL867GZ;
@@ -494,8 +678,8 @@
 		};
 		B9C2EEE92459AE3800690D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30493E2A616628D99D4CA47 /* Pods-ChordFinderTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6QGL867GZ;
@@ -516,8 +700,8 @@
 		};
 		B9C2EEEB2459AE3800690D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045FF3166720D8ADCF266E43 /* Pods-ChordFinder-ChordFinderUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6QGL867GZ;
 				INFOPLIST_FILE = ChordFinderUITests/Info.plist;
@@ -536,8 +720,8 @@
 		};
 		B9C2EEEC2459AE3800690D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7027D320AE4A3AAC927348BE /* Pods-ChordFinder-ChordFinderUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6QGL867GZ;
 				INFOPLIST_FILE = ChordFinderUITests/Info.plist;
